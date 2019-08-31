@@ -34,7 +34,14 @@ defined specifically by the user. The default function is:
 for x<a/2, otherwise <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\Psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\Psi" title="\Psi" /></a>=0. The variable M defines the number of stationary states used
 in the approximation
 
+## Approximate_ground_state_energy_of_harmonic_oscillator_using_particle_in_box_wavefunctions.py
+Program that approximates the energy of the ground state harmonic oscillator using a variational method and particle in a box basis wavefunctions. An explanation of the principle behind the variational method can be found here: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics). The output plot is a graph of the approximation to the ground state energy as a function of the number of basis functions. It should converge to the actual ground state energy as the number of basis functions increases.
+
+## Approximation_of_coupled_2D_Harmonic_Oscillator.py
+Program that approximates the ground state energy of a 2 dimensional coupled harmonic oscillator. The Hamiltonian in this case is: 
+H = H<sub>x</sub> + H<sub>y</sub> + &lambda;xy, where H<sub>x</sub> and H<sub>y</sub> is a 1D harmonic oscillator hamiltonian in the x and y direction respectively. The output plot is a graph of the approximation as a function of the number of basis functions. It should converge as the number of basis functions increases. 
+
 ## Status
-All three programs can be used and the variables can be adjusted for the users purpose. 
+All programs can be used and the variables can be adjusted for the users purpose. 
 ### TO DO:
 The variables should be coded as user inputs rather the user having to hard code them in.
